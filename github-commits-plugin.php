@@ -1,13 +1,14 @@
 <?php
 /*
-Plugin Name: GitHub Commit History
-Plugin URI: https://example.com/github-commit-history
-Description: Muestra el historial de commits de un repositorio público de GitHub en el menú de administración de WordPress.
+Plugin Name: GitHub Commits Plugin 
+Plugin URI: https://github.com/migbenwd/github-commits-plugin/
+Description: Show the commit history of a public GitHub repository in the WordPress admin menu.
 Version: 1.0
-Author: Your Name
-Author URI: https://example.com
+Author: Miguel Benitez
+Author URI: https://migben.com
 License: GPLv2 or later
 */
+
 
 define('GITHUB_API_URL', 'https://api.github.com');
 define('GITHUB_REPOSITORY_OWNER', 'migbenwd');
@@ -16,7 +17,7 @@ define('GITHUB_REPOSITORY_NAME', 'github-commits-plugin');
 add_action('admin_menu', 'github_commit_history_add_menu');
 
 function github_commit_history_add_menu() {
-    add_menu_page('Historial de commits de GitHub', 'Historial de commits de GitHub', 'manage_options', 'github-commit-history', 'github_commit_history_display');
+    add_menu_page('GitHub Commit History', 'GitHub Commit History', 'manage_options', 'github-commit-history', 'github_commit_history_display');
 }
 
 
@@ -31,7 +32,7 @@ function github_commit_history_display() {
 	}
 
 	thead {
-        background-color: #007bff; /* Azul para los encabezados */
+        background-color: #007bff;
         color: white;
       }
 
