@@ -11,7 +11,7 @@ License: GPLv2 or later
 
 define('GITHUB_API_URL', 'https://api.github.com');
 define('GITHUB_REPOSITORY_OWNER', 'migbenwd');
-define('GITHUB_REPOSITORY_NAME', 'wp-get-commit-plugin');
+define('GITHUB_REPOSITORY_NAME', 'github-commits-plugin');
 
 add_action('admin_menu', 'github_commit_history_add_menu');
 
