@@ -14,7 +14,7 @@ This README file provides detailed instructions on how to install and configure 
 
 **Plugin installation**
 
-1. **Download the plugin:** You can download the "GitHub Commit History" plugin from the official WordPress repository: [(https://github.com/migbenwd/github-commits-plugin)/].
+1. **Download the plugin:** You can download the "GitHub Commit History" plugin from this repository: [([https://github.com/migbenwd/github-commits-plugin](https://github.com/migbenwd/github-commits-plugin/archive/refs/heads/main.zip))/].
   
 2. **Upload plugin:** Access the WordPress admin panel and navigate to **Plugins > Add New Plugin** and upload the ZIP file.
 
