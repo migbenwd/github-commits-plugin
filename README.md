@@ -24,7 +24,7 @@ This README file provides detailed instructions on how to install and configure 
 
 Once the plugin is configured, the GitHub commit history will be displayed on the page you specify. You can customize the location of the commit history display in the plugin settings.
 
-**Medium**
+**Support**
 
 If you encounter any problems installing or configuring the “GitHub Commit History” plugin, you can refer to the official documentation of the plugin or seek help on the WordPress support forums.
 
