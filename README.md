@@ -1,4 +1,4 @@
-<h1> GITHUB COMMITS PLUGIN </h1>
+<h1> GitHub Commit History </h1>
 
 ## Installing the "GitHub Commit History" plugin for WordPress
 
