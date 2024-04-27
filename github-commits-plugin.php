@@ -9,7 +9,6 @@ Author URI: https://example.com
 License: GPLv2 or later
 */
 
-
 define('GITHUB_API_URL', 'https://api.github.com');
 define('GITHUB_REPOSITORY_OWNER', 'migbenwd');
 define('GITHUB_REPOSITORY_NAME', 'wp-get-commit-plugin');
